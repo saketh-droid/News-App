@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shape="rectangle">
+            <stroke android:width="2dp" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/learn"/>
+    </item>
+</layer-list>
