@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="@color/lightblue">
+
+        <ImageView
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:text="News4U"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="50dp"
+            android:textColor="@color/brightmirror"
+            android:fontFamily="@font/nunito_extrabold"
+            android:padding="5dp"
+            />
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/homebutton"
+            android:layout_gravity="center"
+            android:id="@+id/home"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="275sp"
+        android:background="@drawable/user_pic">
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10sp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/lightblue"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:hint="Username"
+            android:inputType="text"
+            android:letterSpacing="0.05"
+            android:textColor="@color/black"
+            android:padding="15sp"
+            android:textColorHint="@color/black"
+            android:textFontWeight="600"
+            android:textSize="25dp" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/lightblue"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:hint="username"
+            android:inputType="text"
+            android:letterSpacing="0.05"
+            android:text="Password"
+            android:padding="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textFontWeight="600"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/lightblue"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:hint="phonenumber"
+            android:inputType="text"
+            android:letterSpacing="0.05"
+            android:text="Phone Number"
+            android:padding="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textFontWeight="600"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/lightblue"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:hint="Email"
+            android:text="Email"
+            android:inputType="text"
+            android:letterSpacing="0.05"
+            android:padding="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textFontWeight="600"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/lightblue"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:hint="location"
+            android:inputType="text"
+            android:text="Location"
+            android:letterSpacing="0.05"
+            android:padding="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textFontWeight="600"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/savedetails"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:letterSpacing="0.05"
+                android:text="save"
+                android:textSize="22sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:textColor="@color/black"
+                android:background="@drawable/video_card"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/brightgreen"
+                />
+
+            <Button
+                android:id="@+id/updatedetails"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Update"
+                android:letterSpacing="0.05"
+                android:textSize="22sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:textColor="@color/black"
+                android:background="@drawable/video_card"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:backgroundTint="@color/brightgreen"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".splash_activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="250sp"
+            android:layout_height="250sp"
+            android:src="@drawable/icon"
+            android:id="@+id/logo"
+            />
+
+        <TextView
+            android:text="News4U"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="80dp"
+            android:letterSpacing="0.05"
+            android:textColor="@color/brightmirror"
+            android:fontFamily="@font/nunito_extrabold"
+            android:padding="5dp"
+            />
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:indeterminateTint="@color/orangered"
+            />
+    </LinearLayout>
+</RelativeLayout>

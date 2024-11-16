@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="@color/lightblue">
+
+        <ImageView
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:text="News4U"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="50dp"
+            android:textColor="@color/brightmirror"
+            android:fontFamily="@font/nunito_extrabold"
+            android:padding="5dp"
+            />
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/homebutton"
+            android:layout_gravity="center"
+            android:id="@+id/home"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/web_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

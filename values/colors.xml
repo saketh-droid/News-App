@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orangered">#FF4820</color>
+    <color name="orange">#FFA500</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFE500</color>
+    <color name="pink">#ff00ff</color>
+    <color name="mirror">#BA68FFDC</color>
+    <color name="brightmirror">#00C6B6</color>
+    <color name="deepblue">#0000ff</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="lightblue">#6A91FFFF</color>
+    <color name="green">#9E1BCC07</color>
+    <color name="grey">#C3474747</color>
+    <color name="brightgreen">#E91AFF00</color>
+    <color name="glassmorphic">#B4000000</color>
+</resources>

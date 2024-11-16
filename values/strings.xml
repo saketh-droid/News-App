@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="number1">Number1</string>
+    <string name="number2">Number2</string>
+    <string name="Number1" />
+    <string name="icon">icon</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="like">like</string>
+    <string name="dislike">dislike</string>
+</resources>
